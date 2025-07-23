@@ -461,6 +461,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
+    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     libxlog \
     android.hardware.secure_element@1.0-impl \
     com.qti.actuator.munch_ofilm_imx582_dw9800v_wide_actuator \
@@ -991,7 +993,6 @@ PRODUCT_PACKAGES += \
     misound_res_headphone \
     misound_res_spk \
     com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.wifidisplayhal@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
@@ -1130,7 +1131,7 @@ PRODUCT_PACKAGES += \
     xtwifi-client \
     xtwifi-inet-agent \
     dpmd \
-    wfdservice64
+    wfdservice
 
 PRODUCT_PACKAGES += \
     vendor_lib_libEGL_adreno_so \
