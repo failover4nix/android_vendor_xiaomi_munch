@@ -274,7 +274,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/munch/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/munch/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/xiaomi/munch/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
-    vendor/xiaomi/munch/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/munch/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/xiaomi/munch/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
     vendor/xiaomi/munch/proprietary/vendor/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/1_doubelClick_P_RTP.bin \
@@ -1127,7 +1126,6 @@ PRODUCT_PACKAGES += \
     toucheventcheck \
     vppservice \
     wifidisplayhalservice \
-    xtra-daemon \
     xtwifi-client \
     xtwifi-inet-agent \
     dpmd \
